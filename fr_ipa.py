@@ -5,13 +5,6 @@ import epitran
 import speech_recognition as sr
 from pydub.silence import split_on_silence
 
-from deepmultilingualpunctuation import PunctuationModel
-
-model = PunctuationModel()
-text = "My name is Clara and I live in Berkeley California Ist das eine Frage Frau Müller"
-clean_text = model.preprocess(text)
-labled_words = model.predict(clean_text)
-st.write(labled_words)
 
 langs = {'Português': 'pt-BR', 'English': 'en', 'Italiano': 'it', 'Español': 'es-AR', 'Français': 'fr-FR', 'Deutsch': 'de-DE', 'Polski': 'pl'}
 

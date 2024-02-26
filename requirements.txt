@@ -3,3 +3,4 @@ pydub
 epitran
 SpeechRecognition
 edge-tts
+deepmultilingualpunctuation
